@@ -1,0 +1,13 @@
+@import '../utils/variables';
+
+.header {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background: $bg-color;
+  background: $linear-gradient;
+  margin-bottom: 10px;
+  &__form-input {
+    width: 200px;
+  }
+}
