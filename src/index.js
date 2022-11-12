@@ -6,6 +6,7 @@ const searchForm = document.querySelector('#search-bar');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 const perPage = 40;
+let page = 1;
 loadMoreBtn.style.display = 'none';
 
 async function submitHandler(event) {
